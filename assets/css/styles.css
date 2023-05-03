@@ -630,11 +630,13 @@ button {
 
 @keyframes change-background-image {
   100% {
-    background-image: url("../img/inve (3).jpg");
+    background-image: url("https://media.discordapp.net/attachments/971434457074642947/1103006617143877662/0-02-05-2da0af48bd1e9c44e4e57a4105dc9c4e43794b772408ba90cbaff375185db457_d6f8fe89d1a3809a.jpg?width=1127&height=846");
   }
-  
+  50%{
+    background-image: url("https://media.discordapp.net/attachments/971434457074642947/1103006593139871794/0-02-05-373c490c0732351ab7c9f2689997dd0b27b5d1ec4293d4a2cd3aa3c402083d90_382345f940b23dce.jpg?width=1127&height=846");
+  }
   0%{
-    background-image: url("../img/inve (5).jpg");
+    background-image: url("https://media.discordapp.net/attachments/971434457074642947/1103006707451449424/0-02-05-d3afb82d24205e3179c489d37e3ee343f6beba8575a6cc55e04529725d421da6_5db9aa2bfcbc2986.jpg?width=1128&height=846");
   }
   }
 
@@ -647,7 +649,7 @@ button {
   transition: none;
   justify-self: center;
   animation-name: change-background-image ;
-  animation-duration: 5s;
+  animation-duration: 15s;
   animation-iteration-count: infinite ;
   
 }
@@ -668,7 +670,7 @@ button {
   transition: none;
   justify-self: center;
   animation-name: change-background-image2;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 @keyframes change-background-image2 { 
@@ -683,6 +685,10 @@ button {
   50% {
     background-image: url("https://media.discordapp.net/attachments/971434457074642947/1103006602191192145/0-02-05-b978e9da0bb728ef9426168fd8039bdade4f0405446006e0111cac28ea74baa6_76b45a15202f8c51.jpg?width=1128&height=846");
   }
+  25% {
+    background-image: url("https://media.discordapp.net/attachments/971434457074642947/1103006713126322186/0-02-05-829a3285a3013beae62f6b3d4e7ec941339ae26591ed4f43ae3ecdf36c9ce28a_1719f86931fd9166.jpg?width=1128&height=846");
+  }
+  
   0% {
     background-image: url("../img/inve (7).jpg");
   }
